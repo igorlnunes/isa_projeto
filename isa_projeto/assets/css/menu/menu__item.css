@@ -1,0 +1,6 @@
+.menu__item {
+    list-style: none;
+    font-size: large;
+    padding-left: 35px;
+    color: black;
+}

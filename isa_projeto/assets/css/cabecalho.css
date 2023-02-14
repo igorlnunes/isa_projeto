@@ -1,0 +1,11 @@
+.cabecalho {
+    align-items: center ;
+    background-color: yellow;
+    display: flex;
+    justify-content:space-between;
+    padding-right: 5px;
+    padding-left: 20px;
+}
+.logo  {
+    width: 15%;
+}
