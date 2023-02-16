@@ -1,4 +1,6 @@
 .cabecalho {
+    position: sticky;
+    top: 0;
     align-items: center ;
     background-color: yellow;
     display: flex;
