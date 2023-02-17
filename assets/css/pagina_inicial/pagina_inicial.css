@@ -1,0 +1,51 @@
+.pagina_inicial {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 5px;
+  padding-left: 20px;
+
+}
+
+.titulo1 {
+  width: 492px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+}
+
+.titulo2 {
+  /* display: inline-flex; */
+  /* display: inline-block; */
+  width: 326px;
+  height: 60px;
+  left: 288px;
+  top: 627px;
+  display: inline-flex;
+  width: 492px;
+  align-items: center;
+  text-align: justify;
+  padding: 10px;
+}
+
+.titulo3 {
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 736px;
+  height: 279px;
+  left: 400px;
+  top: 280px;
+  padding: 30px;
+}
+
+/* height: 150px;
+width: 492px;
+left: 641px;
+top: 343px;
+border-radius: nullpx; */
