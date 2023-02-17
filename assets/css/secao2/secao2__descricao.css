@@ -1,0 +1,12 @@
+.secao2 {
+    background-color: rgb(223, 250, 250);
+}
+.secao2__titulo {
+    background-color: rgb(223, 250, 250);
+    padding: 25px;
+    font-size: 60px;
+    font-family: pacifico, cursive;
+    text-align: center;
+    transition: 5s all;
+    transition: scale(2);
+}
