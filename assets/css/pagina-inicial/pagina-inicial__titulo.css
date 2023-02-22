@@ -1,0 +1,46 @@
+.pagina-inicial {
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-inicial__logo {
+    margin-left: 244px;
+}
+.pagina-inicial__titulo1 {
+    margin-right: 244px;
+}
+.pagina-inicial__titulo1 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+}
+.pagina-inicial__titulo1 p {
+    width: 492px;
+    margin-left: 10%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
+.pagina-inicial__titulo2 h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    margin-right: 244px;
+}
+.pagina-inicial__titulo2 p {
+    width: 492px;
+    margin-left: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+}
