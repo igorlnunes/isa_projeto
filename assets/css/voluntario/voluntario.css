@@ -1,0 +1,4 @@
+.voluntarios {
+    display: flex;
+    flex-direction: column;
+}
