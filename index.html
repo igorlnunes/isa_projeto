@@ -15,7 +15,12 @@
     <link href="./assets/css/menu/menu__lista.css" rel="stylesheet" />
     <link href="./assets/css/secao2/secao2__descricao.css" rel="stylesheet" />
     <link href="./assets/css/secao2/secao2__img.css" rel="stylesheet" />
-    <link href="./assets/css/pagina_inicial/pagina_inicial.css" rel="stylesheet" />
+    <link href="./assets/css/pagina-inicial.css" rel="stylesheet" />
+    <link href="./assets/css/pagina-inicial/pagina-inicial__titulo.css" rel="stylesheet" />
+    <link href="./assets/css/voluntarios.css" rel="stylesheet" />
+    <link href="./assets/css/voluntario/voluntario__botao.css" rel="stylesheet" />
+    <link href="./assets/css/voluntario/voluntario__descricao.css" rel="stylesheet" />
+    <link href="./assets/css/voluntario/voluntario__imagem.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -34,25 +39,27 @@
     </header>
     <section>
         <!-- Fazer página inicial - Igor-->
-        <div class="pagina_inicial">
-            <img class="logo" alt="Volutário do Instituto Simplesmente Amor" src="./assets/img/pagina_inicial.png" />
-            <div class="titulo1">
-                <h1>Somos a ISA!</h1>
-                <p>
-                    Somos uma ONG que atende à pessoas em situação de vulnerabilidade social.
-                    Prestamos atendimento semanal a população de rua e realizamos ações com famílias carentes.
-                </p>
+        <div class="pagina-inicial">
+            <div class="pagina-inicial__titulo">
+                <div class="pagina-inicial__logo">
+                    <img alt="Volutário do Instituto Simplesmente Amor" src="./assets/img/pagina_inicial.png" />
+                </div>
+                <div class="pagina-inicial__titulo1">
+                    <h2>Somos o ISA!</h2>
+                    <p>
+                        Somos uma ONG que atende à pessoas em situação de vulnerabilidade social.
+                        Prestamos atendimento semanal a população de rua e realizamos ações com famílias carentes.
+                    </p>
+                </div>
             </div>
-            <div class="titulo2">
-                <h1>Nós atendemos:</h1>
-            </div>
-            <div class="titulo3">
-                <ul>
-                    <li>Pessoas em situação de rua;</li>
-                    <li>Pessoas em vulnerabilidade social;</li>
-                    <li>Famílias carentes;</li>
-                    <li>Terceira Idade;</li>
-                </ul>
+            <div class="pagina-inicial__titulo">
+                <div class="pagina-inicial__titulo2">
+                    <h2>Atualmente nós atendemos:</h2>
+                    <p>Pessoas em situação de rua;</p>
+                    <p>Pessoas em vulnerabilidade social;</p>
+                    <p>Famílias carentes;</p>
+                    <p>Terceira Idade;</p>
+                </div>
             </div>
         </div>
     </section>
@@ -60,10 +67,11 @@
         <!-- Fazer Quem somos - Arthur-->
         <h2 class="secao2__titulo">São mais de 80.000 mil pessoas impactadas</h2>
         <div class="secao2__img">
-            <div class="secao2__img" id="one">
+            <div class="secao2__img-esquerda">
                 <img src="./assets/img/secao2/secao2__demanda.png">
+                <img src="./assets/img/secao2/secao2__frase.png">
             </div>
-            <div class="secao2__img" id="two">
+            <div class="secao2__img-direita">
                 <img src="./assets/img/secao2/secao2__numeros.png">
             </div>
         </div>
@@ -71,13 +79,23 @@
     <section>
         <!-- Fazer Nosso trabalho -->
     </section>
-    <section>
-        <!-- Fazer Seja voluntário -->
+    <section class="voluntarios">
+        <h3 class="voluntario__titulo">Torne-se um voluntário e faça parte dessa corrente.</h3>
+        <div class="voluntario">
+            <div class="voluntario__descricao">
+                <p>Preencha nosso formulário de inscrição</p>
+                <button class="voluntario__botao">Inscreva-se</button>
+            </div>
+            <div class="voluntario__imagem">
+                <img src="./assets/img/voluntario/voluntario__img.png">
+            </div>
+        </div>
+        <!-- Fazer Seja voluntário Arthur-->
     </section>
     <section>
-        <!-- Fazer Parceiros -->
+        <!-- Fazer Parceiros Arthur-->
     </section>
     <section>
-        <!-- Fazer Fale Conosco -->
+        <!-- Fazer Fale Conosco Arthur -->
     </section>
 </body>
