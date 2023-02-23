@@ -3,6 +3,9 @@
 
 <head>
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -28,8 +31,8 @@
         <img class="logo" alt="Instituto Simplesmente Amor" src="./assets/img/logo__isa.png" />
         <nav class="menu">
             <ul class="menu__lista">
-                <li class="menu__item"> <a class="menu__link ativo" href="#">Página Inicial</a></li>
-                <li class="menu__item"> <a class="menu__link" href="#">Quem Somos</a></li>
+                <li class="menu__item"> <a class="menu__link ativo" href="#top">Página Inicial</a></li>
+                <li class="menu__item"> <a class="menu__link" href="#quem-somos">Quem Somos</a></li>
                 <li class="menu__item"> <a class="menu__link" href="#">Nosso Trabalho</a></li>
                 <li class="menu__item"> <a class="menu__link" href="#">Seja Voluntário</a></li>
                 <li class="menu__item"> <a class="menu__link" href="#">Parceiros</a></li>
@@ -55,15 +58,21 @@
             <div class="pagina-inicial__titulo">
                 <div class="pagina-inicial__titulo2">
                     <h2>Atualmente nós atendemos:</h2>
-                    <p>Pessoas em situação de rua;</p>
-                    <p>Pessoas em vulnerabilidade social;</p>
-                    <p>Famílias carentes;</p>
-                    <p>Terceira Idade;</p>
+                    <div id="rectangule">
+                        <div id="lista">
+                            <ul>
+                                <li>Pessoas em situação de rua;</li>
+                                <li>Pessoas em vulnerabilidade social;</li>
+                                <li>Famílias carentes;</li>
+                                <li>Terceira Idade;</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="secao2">
+    <section class="secao2" id="quem-somos">
         <!-- Fazer Quem somos - Arthur-->
         <h2 class="secao2__titulo">São mais de 80.000 mil pessoas impactadas</h2>
         <div class="secao2__img">
