@@ -3,12 +3,12 @@
     flex-direction: column;
 }
 
-.pagina-inicial__logo {
-    margin-left: 244px;
+.pagina-inicial__titulo {
+    align-self: center;  
 }
 
-.pagina-inicial__titulo1 {
-    margin-right: 244px;
+.pagina-inicial__logo {
+    margin-right: 100px;
 }
 
 .pagina-inicial__titulo1 h2 {
@@ -16,19 +16,22 @@
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
+    margin-top: 50px;
 }
 
 .pagina-inicial__titulo1 p {
     width: 492px;
-    margin-left: 10%;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 30px;
-    display: flex;
     align-items: center;
     text-align: justify;
+}
+
+.pagina-inicial__titulo2 {
+    align-self: center;
 }
 
 .pagina-inicial__titulo2 h2 {
@@ -36,14 +39,14 @@
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
-    margin-left: 50px;
+    margin-top: 50px;
+    margin-left: -200px; 
 }
 
 #rectangule {
     width: 500px;
     height: 200px;
     background-color: #E7FB00;
-    /* opacity: 70%; */
     border-radius: 15px;
     align-content: center;
     margin-bottom: 16px;
