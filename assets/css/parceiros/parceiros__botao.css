@@ -1,0 +1,14 @@
+.parceiro__botao {
+  background: #cfe748;
+  border: none;
+  border-radius: 5px;
+  color:aliceblue;
+  padding: 16px;
+  /*Transição começará de vagar e terminara de vagar*/
+  transition: all .1s ease-in-out;
+}
+
+.parceiro__botao:hover{
+  background: #9abd58;
+  cursor: pointer;
+}
