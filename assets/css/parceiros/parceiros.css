@@ -1,4 +1,5 @@
 .parceiro {
   display: flex;
   flex-direction: column;
+  background: #FFDDFF;
 }

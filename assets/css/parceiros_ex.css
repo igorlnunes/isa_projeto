@@ -6,13 +6,12 @@
 
 }
 .parceiro__titulo {
-  background: #E0E0FF;
+  background: #FFDDFF;
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 60px;
-  transition: 5s all;
-  transition: scale(2);
+  line-height: 40px;
+  padding-top: 100px;
 }

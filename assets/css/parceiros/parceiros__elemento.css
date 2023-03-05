@@ -1,0 +1,52 @@
+/* Elemento que mostra todos os parceiros com a imagem da empresa
+e o link para o site - container */
+.parceiro__elemento {
+  display: flex;
+  flex-direction: column;
+  padding-left: 80px;
+  padding-top: 50px;
+}
+
+/* Contém o titulo da tabela */
+.parceiro__elemento_titulo {
+  width: 340px;
+  height: 70px;
+  left: 44px;
+  top: 287.95px;
+  border-radius: 81px;
+  background-color: rgba(19, 79, 92, 0.9);
+}
+
+.parceiro__elemento_titulo p {
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  color: #E9FBFF;
+}
+
+/* Contém os anuncios */
+.parceiro__elemento_container_anuncio {
+  width: 340px;
+  height: 211px;
+  left: 44px;
+  top: 427.95px;
+
+  background: #E7FB00;
+  border-radius: 35px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* creates two columns */
+  grid-gap: 3px; /* sets the gap between grid items */
+  margin-bottom: 10px;
+}
+
+.parceiro__elemento_logomarca {
+  margin-top: 10px;
+  width: 146.24px;
+  height: 54.17px;
+  margin-left: 10px;
+  background: #E9FBFF;
+  border-radius: 81px;
+}
