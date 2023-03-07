@@ -2,6 +2,7 @@
 e o link para o site - container */
 .parceiro__elemento {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   padding-left: 80px;
   padding-top: 50px;
@@ -48,5 +49,13 @@ e o link para o site - container */
   height: 54.17px;
   margin-left: 10px;
   background: #E9FBFF;
+  border-radius: 81px;
+  align-content: center;
+}
+
+.parceiro__elemento_logomarca img {
+  width: 90%;
+  height: 90%;
+  margin-left: 10px;
   border-radius: 81px;
 }
