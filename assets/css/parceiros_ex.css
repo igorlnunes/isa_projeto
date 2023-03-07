@@ -1,0 +1,19 @@
+.parceiro {
+  background: #E0E0FF;
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-around;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+
+}
+.parceiro__titulo {
+  background: #FFDDFF;
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+  padding-top: 100px;
+}
